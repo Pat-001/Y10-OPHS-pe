@@ -1,0 +1,26 @@
+#variable (2)
+
+name1 = "patrick"
+name2 = "luigi"
+name3 = "maria"
+name4 = "pasta"
+name5 = "chips"
+
+print(name1)
+print(name2)
+print(name3)
+print(name3)
+print(name5)
+print("")
+
+town1 = "lisbon"
+town2 = "london city"
+town2 = "barking"
+town4 = "croydon"
+town5 = "purley"
+
+print(town1)
+print(town2)
+print("")
+print(town4)
+print(town5)
