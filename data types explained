@@ -1,0 +1,9 @@
+#data types
+#5 data types for this gcse
+#C+RIBS
+
+character = "u"
+real/float = 1.25
+interger = 90
+boolean = True
+string = "i'm here"
