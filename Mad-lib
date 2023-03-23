@@ -1,0 +1,13 @@
+print("This is a mad-lib.")
+# mad-libs aren't easy to make
+print("")
+p0 = input()
+
+
+
+print("I was walking down the",p0,"when I")
+print("saw it. A",p1,"chicken... crossing the road.")
+print("I was",p2,"at the sight of this")
+print("But I kept walking, I had",p3,"to do at home.")
+print("Lesson of the story: Always eat",p4,"after")
+print("school.")
