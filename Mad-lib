@@ -1,13 +1,27 @@
+# Hello person!
 print("This is a mad-lib.")
 # mad-libs aren't easy to make
 print("")
-p0 = input()
-
-
-
-print("I was walking down the",p0,"when I")
+p0 = input("Enter an adjective:")
+print("")
+#Using 'print("")' leaves a space between inputs 
+#when the code is run.
+p1 = input("Enter a nationality:")
+print("")
+p2 = input("Enter an emotion:")
+print("")
+p3 = input("Enter an activity:")
+print("")
+p4 = input("Enter a food:")
+print("")
+n0 = input(str("To see your mad-lib, enter an integer>>>"))
+#Finally, you get your end product
+print("")
+print("< Here's your MAD-LIB >")
+print("I was walking down the",p0,"road when I")
 print("saw it. A",p1,"chicken... crossing the road.")
 print("I was",p2,"at the sight of this")
 print("But I kept walking, I had",p3,"to do at home.")
+print("")
 print("Lesson of the story: Always eat",p4,"after")
 print("school.")
