@@ -1,0 +1,15 @@
+#using "if"
+SkyColour = "blue"
+
+if SkyColour == "blue" :
+  print("The sky is blue today")
+
+print("See ya!")
+
+#using "if" and "else"
+baby = input("has the baby been born yet? y or n")
+print("")
+if baby == "y" :
+  print("Congratulations")
+else :
+  print("I'll come back later then")
