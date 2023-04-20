@@ -1,0 +1,17 @@
+#This is a comment
+#variables vs constants
+#variables are displayed in titlecase
+#CONSTANTS are declared in CAPITALS
+
+ #example of variable
+ name1 = "Titans" 
+ 
+ #variables store a value (can change)
+ #variables cannot start with a number 
+ #e.g. 1name = "titans" --> syntax error
+ 
+ #example of constants
+ FREETHROW = 1
+ TWOPOINTER = 2
+ 
+ #The values in a CONSTANT do NOT change
