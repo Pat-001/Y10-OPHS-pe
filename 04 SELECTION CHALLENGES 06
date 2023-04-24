@@ -1,0 +1,12 @@
+nub = int(input("How old are you?"))
+print("")
+if nub >= 18:
+  print("You can vote now.")
+else:
+  if nub == 17:
+    print("You can learn to drive.")
+  else:
+    if nub >= 16:
+      print("You used to be able to buy a lottery ticket.")
+    else :
+      print("You can go trick or treating.")
