@@ -1,0 +1,11 @@
+print("Hello!")
+numb1 = float(input("Enter a number >>"))
+numb2 = float(input("Enter another number >>"))
+print("")
+if numb1 > numb2 :
+  print(numb2)
+  print(numb1)
+  
+else:
+  print(numb1)
+  print(numb2)
