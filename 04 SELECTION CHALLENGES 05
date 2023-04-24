@@ -1,0 +1,11 @@
+ro1 = str(input("Is it raining?")).lower()
+print("")
+ro2 = str(input("Is it windy right now?")).lower()
+print("")
+if ro1 == "no":
+  print("Have a good day!")
+else:
+  if ro2 == "yes":
+    print("It's too windy for an umbrella.")
+  else:
+    print("You should take an umbrella today.")
