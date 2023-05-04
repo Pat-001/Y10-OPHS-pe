@@ -1,0 +1,6 @@
+tol = 0
+while tol <= 75 :
+  nub = int(input("Enter a number >>"))
+  tol = tol + nub
+  print("Your number is",tol)
+print("Good bye!")
