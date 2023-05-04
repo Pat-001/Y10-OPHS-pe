@@ -1,0 +1,4 @@
+nub= 1
+while nub != 3 :
+  nub = nub + 1
+  print("Your number is",nub)
