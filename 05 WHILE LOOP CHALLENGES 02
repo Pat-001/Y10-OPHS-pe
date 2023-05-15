@@ -1,0 +1,7 @@
+ev = float(0)
+while ev <= 5 :
+  ef = float(input("Enter a number >>"))
+  ev = ev + ef
+print("")
+print("The last number you entered was",ef)
+print("Goodbye.")
