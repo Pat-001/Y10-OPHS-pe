@@ -1,0 +1,9 @@
+to = input("enter number >>")
+total = to
+ans = "y"
+while ans = "y": 
+  to2 = float(input("Enter another number >>"))
+  total = to2 + total
+  ans = str(input("Do you want to enter another number? y or n")).lower
+print("")
+print("Your total is",total)
