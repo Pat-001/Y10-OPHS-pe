@@ -1,0 +1,9 @@
+c1 = str(input("Enter a car brand >>"))
+c2 = str(input("Enter a car brand >>"))
+c3 = str(input("Enter a third car brand >>"))
+print("")
+tri = []
+tri.append(c1)
+tri.append(c2)
+tri.append(c3)
+print(tri)
