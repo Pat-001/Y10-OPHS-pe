@@ -1,0 +1,5 @@
+stu = ["James","Ali","Salmah","Enzo","Olga"]
+stu.insert(0,"Brenda")
+stu.append("Kya")
+del stu[3]
+print(stu)
