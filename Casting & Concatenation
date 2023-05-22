@@ -1,0 +1,15 @@
+#Casting explained
+a = 1 
+b = 4
+
+stringA = str(a) #casting
+stringB = str(a) #casting
+#Casting is coverting one data type
+#Into another.
+
+c = stringA + stringB
+print(c)
+ #Since you cannot add string,
+ #The plus sign is now a
+ #Concatenation sign
+ #(squashes string together)
