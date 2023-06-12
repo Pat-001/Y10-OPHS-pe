@@ -1,0 +1,6 @@
+number = int(input("Enter a number >>"))
+a = 0
+while a < 12 :
+  a = a+1
+  total = number * a
+  print(a,"x",number,"=",total)
