@@ -1,0 +1,15 @@
+guss = 51
+tr = 1
+try2 = int(input("Enter your guess for the mystery number >>"))
+while try2 != guss :
+  tr = tr + 1
+  if try2 > guss:
+    print("Your guess is too high")
+    try2 = int(input("Guess again >>"))
+  else: 
+    if try2 < guss :
+      print("Your guess is too low")
+      try2 = int(input("Guess again >>"))
+print("")
+print("You finally guessed the number!")
+print("It took you",tr,"attempts.")
