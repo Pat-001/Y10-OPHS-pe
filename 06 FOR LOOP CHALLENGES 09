@@ -1,0 +1,13 @@
+people = int(input("How many people are being invited to the party?_"))
+if people => 10 :
+  print("That's too many people!")
+else:
+  if people < 0:
+    print("You jokester, try again!")
+  else:
+    for x in range(people):
+    ns = str(input("Name of a person coming>>"))
+    count = 0
+    nas = []
+    nas.insert(count,ns)
+    count = count + 1
