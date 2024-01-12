@@ -1,0 +1,46 @@
+import time
+name = str(input("Enter your first name please >>"))
+ 
+def names(name):
+  if len(name) > 5:
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    print(name.lower())
+  else:
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    name2 = str(input("Enter your surname please >>"))
+    name2 = name + name2
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    print(name2.upper())
+  
+names(name)
+
+
+
+
+
+Files = open("ProductDetails.txt","a")
+con = input("Press enter to continue or enter 'done' to end >>")
+while con.lower() != "done":
+  ID = str(input("Enter product ID >"))
+  Name = str(input("Enter product name >"))
+
+
+
+
+
+
+
+
+000,abc,0.00
+
