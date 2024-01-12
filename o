@@ -34,6 +34,7 @@ con = input("Press enter to continue or enter 'done' to end >>")
 while con.lower() != "done":
   ID = str(input("Enter product ID >"))
   Name = str(input("Enter product name >"))
+  price = str(input("Enter product price >"))
 
 
 
