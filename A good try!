@@ -1,0 +1,33 @@
+a = []
+d = []
+a = input("Are you player 1 or 2:")
+print(a)
+if a := 1:
+  b = open("Player1.txt","r")
+  c = b.readline()
+  d = b.readline()
+  e = b.readline()
+  n = input("Name:")
+  if n := c:
+    r = input("Password:")
+  elif n != c:
+   print ("Wrong password.")
+  if r := d:
+    print ("You can start playing.")
+  elif r!=d:
+    print ("Wrong password.")  
+  
+elif a := 2:
+  f = open("Player2.txt","r")
+  g = f.readline()
+  h = f.readline()
+  j = f.readline()
+  n1 = input("Name:")
+  if n1 := g:
+   m = input("Password:")
+  elif n1 != g:
+   print ("Wrong password.")
+  if m := h:
+    print ("You can start playing.")
+  elif m!=h:
+    print ("Wrong password.")  
