@@ -1,0 +1,12 @@
+Tname = (input("Enter team name:"))
+Tscore = int(input("Enter team score:"))
+newTname = ""
+newTscore = 0
+while Tname.upper() != "STOP":
+  if int(Tscore) > int(newTscore):
+    newTscore = Tscore
+    newTname = Tname
+  Tname = (input("Enter another team name or enter 'stop':"))
+  Tscore = int(input("Enter team score:"))
+  
+print(newTname,"won with",newTscore,"points")
